@@ -1,0 +1,176 @@
+* {
+    position: relative;
+    margin:0px;
+    padding:0px;
+    border:none;
+	outline:0px;
+	font-family:monospace;
+	font-weight: normal;
+    background-color: transparent;
+}
+
+
+html {
+	position:static;
+	background:rgb(0,0,0);
+}
+body {
+	position:static;
+	background:rgb(105,0,0);
+}
+canvas {
+	position:absolute;
+}
+p {
+    position:absolute;
+	font-size:16px;
+    color:rgb(255,255,255);
+}
+button {
+	width:120px;
+	height:25px;
+	right:0px;
+	top:0px;
+    padding:4px;
+    font-size:12px;
+}
+table {
+    vertical-align:middle;
+}
+td {
+    padding:0px;
+}
+
+
+.buttonUp {
+    background-color:#bbaaff;
+}
+.buttonDown {
+    background-color:#ffbbaa;
+}
+.editClosed {
+	left:0px;
+	width:140px;
+	height:40px;
+	padding:10px;
+	background:rgb(30,30,255);
+	color:white;
+}
+.editOpen {
+	left:0px;
+	width:140px;
+	height:40px;
+	padding:10px;
+	font-size:10px;
+	background:green;	
+	color:black;
+}
+.charUnselected {
+    width:30px;
+    height:30px;
+	padding:8px;
+	font-size:8px;
+    background:white;
+    color:black;
+}
+.color {
+	border: 2px inset;
+	height: 20px;
+	cursor: pointer;
+}
+
+
+#input {
+	color:rgba(0,0,0,255);
+	position:absolute;
+	left:320px;
+	top:14px;
+	width:950px;
+	font-size:20px;
+	font-family:monospace;
+	background:white;
+	border:0px;
+}
+#editClosedText {
+	font-size:20px;
+}
+#editOpenText{
+	font-size:20px;
+}
+#levelSwitch {
+	z-index:2;
+	position:absolute;
+	font-size:20px;
+	font-family:monospace;
+}
+#composeCanvas{
+    position:absolute;
+	left:0px;
+	top:120px;
+}
+#editorCanvas {
+	position:absolute;
+    left:0px;
+    top:120px;
+	background-color:#bbbbbb;
+    cursor:crosshair;
+}
+/*
+#wrapper {
+    width:960px;
+    margin:0px auto;
+}
+#innerWrapper {
+    height:1660px;
+    width:960px;
+    margin:0px auto;
+}
+*/
+#charSelect {
+    z-index:1;
+	position: absolute;
+	top:70px;
+    left:20px;
+    padding:10px;
+    background:white;
+}
+#buttonTable {
+	position:absolute;
+    left:170px;
+	top:0px;
+	margin:0px;
+	padding:5px;
+	border:0px;
+	border-spacing:0px;
+	border-collapse:separate;
+}
+#textarea {
+    top:400px;
+    left:20px;
+	font-family:monospace;
+	font-weight: normal;
+	font-size: 14px;
+	width: 370px;
+	height: 600px;
+	background-color: #005E8A;
+	color: #ffffff;
+	position:absolute;
+	padding: 10px;
+	resize: none;
+	outline: none;
+	wrap: soft;
+}
+#tool_title {
+	top: 120px;
+	padding: 10px;
+	height: 10px;
+}
+#tool_description {
+	top: 116px;
+	padding: 10px;
+}
+
+#gradientCanvas {
+	background-color: #ffffff;
+	position: relative;
+}
